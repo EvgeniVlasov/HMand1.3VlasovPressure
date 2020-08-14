@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Comprehensive health monitoring system</string>
+    <string name="titleNameProject">Комплексная система мониторинга здоровья</string>
+    <string name="txtEditFIO">Введите ФИО</string>
+    <string name="editFIO"></string>
+    <string name="txtEditAge">Введите свой возраст</string>
+    <string name="editAge"></string>
+    <string name="btnSave">Сохранить</string>
+    <string name="btnPressure">К записям давления</string>
+    <string name="btnLife">К жизненным показателям</string>
+    <string name="txtPressure">Введите показатели своего давления</string>
+    <string name="txtPressureUp">Вверхнее показание давления</string>
+    <string name="editPressureUp"></string>
+    <string name="txtPressureDown">Нижнее показание давления</string>
+    <string name="editPressureDown"></string>
+    <string name="txtPulse">Введите пульс</string>
+    <string name="editPulse"></string>
+    <string name="checkBoxTahird">Тахикардия</string>
+    <string name="txtDate">Введите дату и время</string>
+    <string name="editDate"></string>
+    <string name="buttonBack">Сохранить</string>
+    <string name="textLife">Введите свои жизненные показатели</string>
+    <string name="txtWeight">Вес</string>
+    <string name="editWeight"></string>
+    <string name="txtSteps">Количество шагов</string>
+    <string name="editSteps"></string>
+    <string name="btnLifeSave">Сохранить</string>
+    <string name="buttonBackToLife">Назад</string>
+    <string name="btnBackPressure">Назад</string>
+</resources>

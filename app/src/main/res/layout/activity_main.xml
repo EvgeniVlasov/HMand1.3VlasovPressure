@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnPressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="goLife"
+        android:text="@string/btnLife"
+        app:layout_constraintBottom_toTopOf="@+id/btnLife"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSave" />
+
+    <TextView
+        android:id="@+id/titleNameProject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:text="@string/titleNameProject"
+        app:layout_constraintBottom_toTopOf="@+id/txtEditFIO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <EditText
+        android:id="@+id/editFIO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editFIO"
+        app:layout_constraintBottom_toTopOf="@+id/txtEditAge"
+        app:layout_constraintStart_toStartOf="@+id/txtEditFIO"
+        app:layout_constraintTop_toBottomOf="@+id/txtEditFIO" />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/editAge"
+        app:layout_constraintBottom_toTopOf="@+id/btnSave"
+        app:layout_constraintStart_toStartOf="@+id/txtEditAge"
+        app:layout_constraintTop_toBottomOf="@+id/txtEditAge" />
+
+    <TextView
+        android:id="@+id/txtEditFIO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:text="@string/txtEditFIO"
+        app:layout_constraintBottom_toTopOf="@+id/editFIO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleNameProject" />
+
+    <TextView
+        android:id="@+id/txtEditAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtEditAge"
+        app:layout_constraintBottom_toTopOf="@+id/editAge"
+        app:layout_constraintStart_toStartOf="@+id/editFIO"
+        app:layout_constraintTop_toBottomOf="@+id/editFIO" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="88dp"
+        android:onClick="clickBtnSave"
+        android:text="@string/btnSave"
+        app:layout_constraintBottom_toTopOf="@+id/btnPressure"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAge" />
+
+    <Button
+        android:id="@+id/btnLife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="goPressure"
+        android:text="@string/btnPressure"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnPressure"
+        app:layout_constraintTop_toBottomOf="@+id/btnPressure" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="90dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/titleNameProject"
+        app:layout_constraintEnd_toEndOf="@+id/titleNameProject"
+        app:layout_constraintStart_toStartOf="@+id/titleNameProject"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51"
+        app:srcCompat="@drawable/heart_log" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
